@@ -7,10 +7,10 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '1.0.1'
-DESCRIPTION = 'Simple python package for direct download from Cafe Bazaar'
+VERSION = "1.0.2"
+DESCRIPTION = "Simple Python package for directly downloading applications from Cafe Bazaar."
 LONG_DESCRIPTION = (
-    'Simple Python package for direct download applications from Cafe Bazaar (CafeBazaar.ir)'
+    "Simple Python package for directly downloading applications from Cafe Bazaar (cafebazaar.ir)."
 )
 
 # Setting up
@@ -23,8 +23,8 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=['requests'],
-    keywords=['python', 'bazaar_dl', 'bazaar-dl', 'Cafe-Bazaar'],
+    install_requires=["requests"],
+    keywords=["python", "bazaar_dl", "bazaar-dl", "Cafe-Bazaar"],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
