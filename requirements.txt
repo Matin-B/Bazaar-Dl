@@ -23,7 +23,7 @@ requests-toolbelt==1.0.0
 rfc3986==2.0.0
 rich==13.9.2
 SecretStorage==3.3.3
-setuptools==75.1.0
+setuptools==78.1.1
 twine==5.1.1
 urllib3==2.2.3
 zipp==3.20.2
